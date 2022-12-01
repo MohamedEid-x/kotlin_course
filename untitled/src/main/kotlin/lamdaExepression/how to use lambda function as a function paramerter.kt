@@ -2,7 +2,7 @@ package lamdaExepression
 
 fun main() {
     //normal fun
-greeting("hello Mohamed")
+    greeting("hello Mohamed")
     println("__________________________________________________________________")
 
 // calling function that you used lambda fun as a parameter
@@ -15,23 +15,24 @@ greeting("hello Mohamed")
     }
     println("__________________________________________________________________")
 // pass argument to lambda fun
-reapeter(5){index-> //do this code
-    if (index<3){
-        println("Hello")
-    }else{
-        println("Bye")
+    reapeter(5) { index -> //do this code
+        if (index < 3) {
+            println("Hello")
+        } else {
+            println("Bye")
+        }
     }
-}
 
     // using it parameter instead of typing index
- reapeter(5) {  //do this code
-      if (it < 3) {
+    reapeter(5) {  //do this code
+        if (it < 3) {
             println("Hello")
-      } else {
-        println("Bye")
-  }
+        } else {
+            println("Bye")
+        }
+    }
 }
-        }fun greeting(message:String)
+fun greeting(message:String)
 {
     repeat(5){println("-----")}
     //Executes the given function action specified number of times.
