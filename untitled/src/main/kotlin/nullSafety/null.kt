@@ -4,7 +4,7 @@ fun main() {
 
 
     val name="Mohamed"
-    //name=null  >>>> an error here because you if possible found null a=in any variable you must add ? to its type
+    //name=null  >>>> an error here because  if you possibly found null in  any variable you must add ? to its type
     println(name)
 
     var name2:String?="Mohamed"
