@@ -1,6 +1,6 @@
 package OOP
 
-class ReferanceClass {
+class ReferanceClass() {
 
     var firstName: String = ""
     var lastName: String = ""
@@ -13,4 +13,6 @@ class ReferanceClass {
     fun printNameWithPrefix(prefix:String){
         println("$prefix $firstName")
     }
+
+    // Reference class created in the OOP package
 }
