@@ -23,6 +23,14 @@ println("_______________________________________________________________________
     val user5=Constructor("Ali") //2nd & 3rd constructor
     user5.printNameWithPrefix("Mr,")
 
+    val user6=Constructor("Ahmed","Mohamed")
+   println( user6.fullName) // using class properties (can modify ) you can use read only value by change var by val in the main class
+    user6.fullName= "Mohamed Said"
+    println(user6.fullName)// print fullName after modify
+    println("___________________________________________")
+
+
+
 }
 
 
