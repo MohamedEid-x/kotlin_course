@@ -43,8 +43,8 @@ Providing explicit implementations for the componentN() and copy() functions is 
  */
 
 fun main() {
-    val dc1=personInfo("Mohamed",22)
-    val dc2=personInfo("Ahmed",33)
+    val dc1=PersonData("Mohamed",22)
+    val dc2=PersonData("Ahmed",33)
     println(dc1==dc2)
     println(dc1.printInfo())
     println(dc2.printInfo())
@@ -53,7 +53,7 @@ fun main() {
     println(dc3.component1()) //3.How to use componentN() functions
     println(dc3.component2())//component means the variable inside constructor (1 to first element etc..)
 
-    val (name,age)=personInfo("messi",35) //4.How to destruct an object into a number of variables
+    val (name,age)=PersonData("messi",35) //4.How to destruct an object into a number of variables
     println(name) // you can change this variables name to any name
     println(age)
 
@@ -68,7 +68,7 @@ fun main() {
 }
 //1.How to create data class and create an instance object form it
 
-data class personInfo(val name:String,val Age:Int){
+data class PersonData(val name:String, val Age:Int){
 
     fun printInfo():String{
         return "My name is $name and my age is $Age"
