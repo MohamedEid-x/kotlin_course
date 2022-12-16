@@ -1,4 +1,4 @@
-package OOP
+package oop
 
 fun main() {
     println(favoritFood.name) //The Singleton pattern

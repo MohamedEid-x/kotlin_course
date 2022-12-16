@@ -1,4 +1,4 @@
-package OOP
+package oop
 
 /*
 1. How to create Enum class

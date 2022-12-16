@@ -1,4 +1,4 @@
-package OOP
+package oop
                   //primary constructor
 class Constructor(var firstName:String,var lastName:String,var IsGraduated:Boolean) {
       /*The primary constructor cannot contain any code. Initialization code

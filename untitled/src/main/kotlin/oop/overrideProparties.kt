@@ -1,6 +1,4 @@
-package OOP
-
-import java.lang.reflect.Field
+package oop
 
 class B(var firstName:String,var lastName:String) {
 

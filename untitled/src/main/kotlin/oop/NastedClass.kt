@@ -1,4 +1,4 @@
-package OOP
+package oop
 
 fun main() {
      val obj=FirstClass.NastedTwo("Amin","Ali") // to invoke the second class you must write the "first.nested"
