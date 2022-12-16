@@ -40,6 +40,7 @@ Providing explicit implementations for the componentN() and copy() functions is 
 3.How to use componentN() functions
 4.How to destruct an object into a number of variables
 5.How to use copy() function
+6.How to use data class as a class parameter inside the constructor of another class
  */
 
 fun main() {
@@ -62,6 +63,9 @@ fun main() {
     val copy= obj.copy(date=30,day="SUN",shift="AM")
     println(copy)
 
+    val  order= Order(1000,copy)// no.6
+    println(order)
+
 
 
 
@@ -78,3 +82,6 @@ data class PersonData(val name:String, val Age:Int){
 data class DefaultValue(val name :String="Ali",val Age:Int=34)
 
 data class Shifts(val date:Int,val day:String,val shift:String)
+
+//6.How to use data class as a class parameter inside the constructor of another class
+data class Order(val amount:Int,val shift:Shifts)
