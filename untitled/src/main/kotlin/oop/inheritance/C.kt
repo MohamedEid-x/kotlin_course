@@ -5,7 +5,7 @@ class C:B() {
 
 
     fun printEmail():String{
-        return this.email   // this main the member in this class
+        return this.email   // this Main the member in this class
     }
 
 

@@ -50,7 +50,7 @@ fun main() {
     println(obj.GetName())
     println(obj.GetEmail())
 println("______________________________________________________________")
-
+    // setter and getter by another way
     val x=Get_Set()
     x.setAndGetName="Ali"
     println(x.setAndGetName)

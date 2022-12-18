@@ -1,6 +1,6 @@
 package oop
 /*
-It is not unusual to create classes whose main purpose is to hold data.
+It is not unusual to create classes whose Main purpose is to hold data.
  In such classes, some standard functionality and some utility functions are often mechanically derivable from the data.
   In Kotlin, these are called data classes and are marked with data:
 
