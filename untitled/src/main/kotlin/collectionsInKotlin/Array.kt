@@ -8,6 +8,12 @@ package collectionsInKotlin
 
 fun main() {
 
+/*
+>> arrayOf():Accepts any type
+>>intarrayOf():Accepts an Int items only,etc.
+
+ */
+
     //1.How to create an array
     val data= arrayOf(1,2,3,"mohamed") // array that accept any type of data
     data.forEach { println(it) }
@@ -49,3 +55,11 @@ class user (firstName:String,lastName:String) //normal class that return the ful
         return fullName
     }
 }
+
+ // Methods to use with array
+/*
+>> plus() : to add new item to the array
+>> sort() : to sort items ascending  in array (use it with for loop)
+>> sortDescending() : to sort items Descending  in array
+
+ */
