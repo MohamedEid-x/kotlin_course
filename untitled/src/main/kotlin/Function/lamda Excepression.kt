@@ -27,7 +27,7 @@ fun greeting2(block:()->Unit){
     repeat(5){println("-----")}
 }
 
-//function withn normal parameter
+//function with normal parameter
 fun greeting(message:String)
 {
     repeat(5){println("-----")}
