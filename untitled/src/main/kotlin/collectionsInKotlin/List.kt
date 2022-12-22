@@ -107,9 +107,21 @@ map:Returns a list containing the results of applying the given transform functi
     val xmx= names.map { it.substring(0,3).uppercase() }.reversed() //Returns a list with elements in reversed order.
     println(xmx)
 
+println("____________________________________________Map VS flatmap___________________________________________________________________")
 
+//____________________________________________Map VS flatmap _____________________________________________________________________
 
+/*
+>>UnionOperator:Returns a list containing the results of applying the given transform function to each element in the original collection.
+>>flatmap:Returns a single list of all elements yielded from results of transform function being invoked on each element of original collection.
+ */
 
+    val group4= listOf("ahmed","Ali","Asaad")
+    val group5= listOf("Mohamed","Mary","May")
+    val group6= listOf("Samy","Sally","said")
+    val allGroup2= listOf(group4,group5,group6)
+    println(allGroup2.map {it})
+    println(allGroup2.flatMap { it })
 }
 fun isChild(age:Int):Boolean{
     return age>=18
